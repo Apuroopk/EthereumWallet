@@ -6,7 +6,7 @@
     "test": "truffle test",
     "lint": "eslint ./",
     "prepare": "truffle compile && npm test && npm run lint && webpack-cli --config ./webpack.config.js",
-    "build": "npm install",
+    "build": "webpack",
     "dev": "webpack-dev-server"
   },
   "author": "Douglas von Kohorn",
